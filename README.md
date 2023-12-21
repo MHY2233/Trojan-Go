@@ -18,4 +18,12 @@
     
 - **查看运行状态**
     
-    systemctl status trojan-go
+        systemctl status trojan-go
+
+- **查看日志**
+
+        journalctl -u trojan-go -o cat -e
+
+- **实时日志**
+
+        journalctl -u trojan-go -o cat -f
