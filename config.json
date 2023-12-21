@@ -4,20 +4,15 @@
     "local_port": 443,
     "remote_addr": "127.0.0.1",
     "remote_port": 80,
+    "log_level": 1,
+    "log_file": "/var/log/trojan-go.log,
     "password": [
         "your_password"
     ],
     "ssl": {
         "cert": "your_cert.crt",
         "key": "your_key.key",
-        "sni": "your-domain-name.com"
-    },
-    "router": {
-        "enabled": true,
-        "block": [
-            "geoip:private"
-        ],
-        "geoip": "/usr/share/trojan-go/geoip.dat",
-        "geosite": "/usr/share/trojan-go/geosite.dat"
+        "sni": "your-domain-name.com",
+        "fallback_port": 8080
     }
 }
