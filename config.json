@@ -7,7 +7,7 @@
     "log_level": 1,
     "log_file": "/var/log/trojan-go.log",
     "password": [
-        "your_password"
+        "oo6rfX@NR3AMMMJTbL#zL3m#j?RBFL"
     ],
     "ssl": {
         "cert": "/usr/local/etc/ssl/fullchain.cer",
