@@ -10,8 +10,8 @@
         "your_password"
     ],
     "ssl": {
-        "cert": "your_cert.crt",
-        "key": "your_key.key",
+        "cert": "/usr/local/etc/ssl/fullchain.cer",
+        "key": "/usr/local/etc/ssl/private.key",
         "sni": "your-domain-name.com",
         "fallback_port": 8080
     }
