@@ -5,7 +5,7 @@
     "remote_addr": "127.0.0.1",
     "remote_port": 80,
     "log_level": 1,
-    "log_file": "/var/log/trojan-go.log,
+    "log_file": "/var/log/trojan-go.log",
     "password": [
         "your_password"
     ],
