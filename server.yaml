@@ -4,14 +4,11 @@ local-port: 443
 remote-addr: 127.0.0.1
 remote-port: 80
 password:
-  - your_password
+  - QKnb87@6!Kd7F&TK#bqFSpNLB9SxSz
 ssl:
-  cert: your_cert.crt
-  key: your_key.key
+  cert: /usr/local/etc/ssl/fullchain.cer
+  key: /usr/local/etc/ssl/private.key
   sni: your-domain-name.com
-router:
-  enabled: true
-  block:
-    - 'geoip:private'
-  geoip: /usr/share/trojan-go/geoip.dat
-  geosite: /usr/share/trojan-go/geosite.dat
+  fallback-port: 8080
+log-level: 1
+log-file: /var/log/trojan-go.log
