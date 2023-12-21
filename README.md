@@ -1,4 +1,4 @@
-# Trojan-Go
+
 
 - **安装 Trojan-GO**
     
