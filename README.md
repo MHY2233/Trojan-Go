@@ -27,3 +27,7 @@
 - **实时日志**
 
         journalctl -u trojan-go -o cat -f
+
+- **卸载 Trojan-Go**
+
+        systemctl disable --now trojan-go && rm -rf /usr/local/bin/trojan-go /usr/local/trojan-go /etc/systemd/system/trojan-go.service
