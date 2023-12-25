@@ -30,4 +30,4 @@
 
 - **卸载 Trojan-Go**
 
-        systemctl disable --now trojan-go && rm -rf /usr/local/bin/trojan-go /usr/local/trojan-go /etc/systemd/system/trojan-go.service
+        systemctl disable --now trojan-go && rm -rf /usr/local/bin/trojan-go /usr/local/etc/trojan-go /etc/systemd/system/trojan-go.service
