@@ -1,4 +1,4 @@
-![https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/226857763/original/83f8505a07b1209402a6bd1608b09d71c7ddfb0e/setup-trojan-go-to-use-in-china.png]
+
 
 - **安装 Trojan-GO**
     
